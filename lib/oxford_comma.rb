@@ -3,6 +3,9 @@ def oxford_comma(array)
     array.join
   elsif array.length == 2
     "#{array[0]} and #{array[1]}"
+  elsif array.length > 2 
+   new_string = array.join(", ")
+   
   end
       
   
