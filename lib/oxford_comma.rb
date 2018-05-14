@@ -6,7 +6,7 @@ def oxford_comma(array)
   elsif array.length > 2 
   last_fruit = array.pop
   new_string = array.join(", ") 
-   return new_string ", and" last_fruit
+   return new_strst_fruiting ", and" la
   end
       
   
