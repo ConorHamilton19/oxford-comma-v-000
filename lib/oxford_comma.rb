@@ -6,6 +6,5 @@ def oxford_comma(array)
   elsif array.length > 2 
   last_fruit = array.pop
   array.join(", ") << ", and #{last_fruit}"
-   
   end
 end
