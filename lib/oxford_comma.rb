@@ -5,7 +5,7 @@ def oxford_comma(array)
     "#{array[0]} and #{array[1]}"
   elsif array.length > 2 
   last_fruit = array.pop
-  array.join(", ")  last_fruit
+  new_string = array.join(", ") 
    
   end
       
